@@ -11,6 +11,6 @@ app.get('/',(req,res)=>{
   res.render('index.html');
 });
 
-app.listen(8000,(req,res)=>{
-    console.log('Server Is Running Port Number 8000');
+app.listen(port,(req,res)=>{
+    console.log('Server Is Running Port Number '+port);
 });
